@@ -1,0 +1,17 @@
+{
+  "pluginName": "解放文件夹",
+  "description": "解放文件夹",
+  "version": "1.0.0",
+  "author": "xiaou",
+  "preload": "preload.js",
+  "logo": "logo.png",
+  "features": [
+    {
+      "code": "liberationDirectory",
+      "explain": "解放文件夹",
+      "cmds": [
+        {"type":"files","label":"解放文件夹","fileType":"directory","minLength":1}
+      ]
+    }
+  ]
+}
